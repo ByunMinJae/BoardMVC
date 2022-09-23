@@ -1,4 +1,4 @@
-package controllerMember;
+package controllerUser;
 
 public class JoinController {
 
