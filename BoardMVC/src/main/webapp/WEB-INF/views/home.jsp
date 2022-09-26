@@ -19,11 +19,23 @@ thead {
 #loginBtn {
 	float: right;
 }
+
+#joinBtn {
+	float: right;
+}
 </style>
 
-<a href="/board/login">
-	<button id="loginBtn">로그인</button>
-</a>
+<div id="loginBtn">
+	<a href="/board/login">
+		<button>로그인</button>
+	</a>
+</div>
+
+<div id="joinBtn">
+	<a href="/board/join">
+		<button>회원가입</button>
+	</a>
+</div>
 
 <table>
 <thead>
