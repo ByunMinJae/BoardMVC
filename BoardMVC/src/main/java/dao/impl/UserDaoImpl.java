@@ -10,8 +10,8 @@ import dao.face.UserDao;
 
 public class UserDaoImpl implements UserDao {
 	
-	PreparedStatement ps;
-	ResultSet rs;
+	private PreparedStatement ps;
+	private ResultSet rs;
 	
 	@Override
 	public int getNextval(Connection conn) {

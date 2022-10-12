@@ -15,7 +15,7 @@ import service.impl.UserServiceImpl;
 public class JoinController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	
-	UserService userService = new UserServiceImpl();
+	private UserService userService = new UserServiceImpl();
 	
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
